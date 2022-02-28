@@ -11,7 +11,6 @@ $dbh = new PDO($dsn,$user, $passwd);
 
 //Requête sql
 
-//$sql = "SELECT * FROM patho WHERE mer=:value;";
 $sql = "SELECT * FROM patho WHERE mer=:value;";
 $sth = $dbh->prepare( $sql );
 
